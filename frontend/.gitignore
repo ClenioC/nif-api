@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tsbuildinfo
+
+# Configuração local (o modelo é o .env.example)
+.env
+.env.local
+.env.*.local
+
+# O .gitignore da raiz exclui estes padrões, mas aqui são ficheiros do projecto
+!package-lock.json
+!*.d.ts
